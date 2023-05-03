@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(252, 243, 232);
+}
+header{
+    background-color: rgb(95, 59, 226);
+    padding: 30px;
+font-size: 1.5em;
+font-weight: 500;
+
+}
+.team{
+  
+    
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    
+}
+.team a{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: rgb(48, 89, 124);
+    margin-left: 20px;
+}
+
+
+
+
+.max img{
+    max-width: 20%;
+   padding-left: 50px;
+
+}
+
+.max p{
+font-size: 1.2em;
+padding-left: 100px;
+text-decoration: none;
+font-weight: 500;
+background-color: aqua;
+}
+.max h4{
+    font-size: 1.6em;
+    padding-left: 100px;
+
+}
+
+@media (max-width:480px){
+
+body{
+padding: 0;
+margin: 0;
+background-color: rgb(252, 248, 244);
+
+}
+
+header{
+    background-color: rgb(95, 59, 226);
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+font-size: 1.1em;
+font-weight: 500;
+
+}
+.team{
+    
+    
+    height: 200px;
+    margin-top: 20px;
+   display: grid;
+   grid-template-columns: 130px 130px 130px 130px 130px 130px;
+
+    
+}
+.team a{
+    width: 120px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none; 
+
+   
+}
+
+
+
+.max img{
+    max-width: 40%;
+   padding-left: 10px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.max p{
+padding-left: 10px; 
+background-color: aqua;
+
+
+}
+.max h4{
+   margin-top: 15px;
+    padding-left: 7px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
